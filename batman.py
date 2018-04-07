@@ -28,10 +28,3 @@ f.next()
 f.next()
 f.next()
 print f.next()
-
-#### using memoization
-def memoize(fn, arg):
-	memo = {}
-	if arg not in memo:
-		memo[arg] = fn(arg)
-		return memo[arg]
