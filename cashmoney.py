@@ -1,4 +1,4 @@
-"""
+# Binary Search 
 def binarySearch(alist, item):
 	first = 0
 	last = len(alist) -1
@@ -18,5 +18,3 @@ def binarySearch(alist, item):
 testList = [0,1,2,3,45,3,5,234]
 print(binarySearch(testList, 3))
 print(binarySearch(testList, 25))
-"""
-print(23 /2 )
